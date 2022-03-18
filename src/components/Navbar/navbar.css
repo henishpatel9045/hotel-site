@@ -1,0 +1,41 @@
+
+.nav{
+    background-color: transparent;
+    justify-content: center;
+    height: 80px;
+    display: flex;
+    font-weight: 700;
+}
+
+.nav-link{
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    @media screen and (max-width: 400px) {
+        position: absolute;
+        top: 10px;
+        left: 25px;
+    }
+}
+
+.nav-icon{
+    display: block;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+}
+.nav-icon p {
+    font-weight: bold;
+
+    transform: translate(-175%, 100%);
+}
+
+.nav-icon .icon{
+    font-size: 2rem;
+    transform: translate(-50%, -15%);
+}
