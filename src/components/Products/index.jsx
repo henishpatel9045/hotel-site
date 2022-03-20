@@ -1,5 +1,4 @@
 import React from "react";
-import { data } from "./data";
 import {
   ProductsContainer,
   ProductsHeading,
@@ -7,7 +6,7 @@ import {
   ProductsCard,
 } from "./Products";
 
-function Products({ heading }) {
+function Products({ heading, data }) {
   return (
     <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>

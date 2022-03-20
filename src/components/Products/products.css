@@ -51,6 +51,7 @@
     min-width: 300px;
     max-width: 100%;
     box-shadow: 8px 8px #fdc500;
+    transition: .2s ease-in-out;
 }
 
 .products-heading{
@@ -61,7 +62,9 @@
 
 .products-card-title{
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    line-height: 1;
+    margin-bottom: 1.5rem;
 }
 
 .products-card-info{
