@@ -10,9 +10,9 @@ function App() {
   return (
     <Router>
       <Hero />
-      <Products heading={"Choose your favorite"} data={data} />
+      <Products heading={"Wähle deinen Favoriten"} data={data} />
       <Feature />
-      <Products heading={"Sweet Treats"} data={data2} />
+      <Products heading={"Süße Leckereien"} data={data2} />
       <Footer />
     </Router>
   );

@@ -11,7 +11,6 @@ import {
   FooterContainer,
   FooterWrap,
   FooterMedia,
-  FooterMediaWrap,
   SocialIcons,
   SocialLogo,
   SocialIconLink,
@@ -22,7 +21,7 @@ function Footer() {
     <FooterContainer>
       <FooterWrap>
         <FooterMedia>
-          <SocialLogo>Pizza</SocialLogo>
+          <SocialLogo>Pizzeria Da Angelo</SocialLogo>
           <SocialIcons>
             <SocialIconLink
               href="/facebook"

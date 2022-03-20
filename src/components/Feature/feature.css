@@ -1,7 +1,7 @@
 .feature{
     min-width: 100vw;
     /* background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)) url("../../assets/images/featured.jpg"); */
-    background: radial-gradient(rgba(0,0,0,.1), rgba(0,0,0,0.7)), url("../../assets/images/featured.jpg");
+    background: radial-gradient(rgba(0,0,0,.1), rgba(0,0,0,0.7)), url("../../assets/images/dish-7.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;

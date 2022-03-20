@@ -10,8 +10,10 @@ function Feature() {
   return (
     <FeatureContainer>
       <FeatureHeading>Pizzeria Da Angelo Special</FeatureHeading>
-      <FeatureTagline>Best pizzas you ever tested.</FeatureTagline>
-      <FeatureBtn label={"Full Menu"} to="/menu" />
+      <FeatureTagline>
+        Die besten Pizzen, die Sie je getestet haben.
+      </FeatureTagline>
+      <FeatureBtn label={"Speisekarte"} to="/menu" />
     </FeatureContainer>
   );
 }

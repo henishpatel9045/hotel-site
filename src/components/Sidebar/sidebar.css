@@ -39,7 +39,7 @@
 .sidebar-menu{
     display: grid;
     grid-template-columns: lfr;
-    grid-template-rows: repeat(3, 80px);
+    grid-template-rows: repeat(5, 80px);
     text-align: center;
 }
 

@@ -50,13 +50,14 @@
     font-weight: bold;
     font-size: clamp(1.5rem, 5vw, 1.5rem);
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .social-link{
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-size: calc(1.5rem, 5vw, 2.5rem);
+    margin-inline: 5px;
     transition: .2s ease-in-out;
 }
 

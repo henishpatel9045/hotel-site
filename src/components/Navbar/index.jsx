@@ -7,6 +7,7 @@ function Navbar({ toggle }) {
     <div className="nav">
       <NavLink to="/">
         <h1 id="home">Pizzeria Da Angelo</h1>
+        <h2>Hatzenbühl</h2>
       </NavLink>
       <NavIcon toggle={toggle} />
     </div>

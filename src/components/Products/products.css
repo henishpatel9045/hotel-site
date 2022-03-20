@@ -30,6 +30,7 @@
 .products-card{
     /* margin: 0 0rem; */
     width: 300px;
+    margin-inline: 15px;
     height: fit-content;
     line-height: 2;
     transition: .2s ease-in-out;
