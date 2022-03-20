@@ -5,7 +5,9 @@ import "./navbar.css";
 function Navbar({ toggle }) {
   return (
     <div className="nav">
-      <NavLink to="/">Pizzeria Da Angelo</NavLink>
+      <NavLink to="/">
+        <h1>Pizzeria Da Angelo</h1>
+      </NavLink>
       <NavIcon toggle={toggle} />
     </div>
   );
