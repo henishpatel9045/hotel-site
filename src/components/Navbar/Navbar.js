@@ -4,4 +4,9 @@ import "./navbar.css"
 
 export const NavLink = ({...extra}) => <Link className="nav-link" {...extra} ></Link>
 
-export const NavIcon = ({...extra}) => <div className="nav-icon"><p>Menu</p>{<FaPizzaSlice className="icon" />}</div>
+export const NavIcon = ({ toggle }) => (
+  <div className="nav-icon" onClick={toggle}>
+    <p>Menü</p>
+    {<FaPizzaSlice className="icon" />}
+  </div>
+);

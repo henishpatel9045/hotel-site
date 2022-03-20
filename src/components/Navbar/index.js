@@ -2,11 +2,11 @@ import React from "react";
 import { NavIcon, NavLink } from "./Navbar";
 import "./navbar.css";
 
-function Navbar() {
+function Navbar({ toggle }) {
   return (
     <div className="nav">
-      <NavLink to="/">Pizza</NavLink>
-      <NavIcon />
+      <NavLink to="/">Pizzeria Da Angelo</NavLink>
+      <NavIcon toggle={toggle} />
     </div>
   );
 }

@@ -1,41 +1,53 @@
-
-.nav{
-    background-color: transparent;
-    justify-content: center;
-    height: 80px;
-    display: flex;
-    font-weight: 700;
+.nav {
+  background-color: transparent;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  font-weight: 700;
 }
 
-.nav-link{
-    align-items: center;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    cursor: pointer;
-    display: flex;
-    @media screen and (max-width: 400px) {
-        position: absolute;
-        top: 10px;
-        left: 25px;
-    }
-}
-
-.nav-icon{
-    display: block;
-    top: 0;
-    right: 0;
+@media screen and (max-width: 450px) {
+  .nav-link {
     position: absolute;
-    cursor: pointer;
-    color: #fff;
+    top: 10px;
+    left: -15px;
+  }
+  .nav-icon p{
+    display: none;
+  }
+  .nav-icon .icon{
+    position: absolute;
+    top: 20px;
+    right: 0px;    
+    transform: translate(-50%, 0%);
+  }
+}
+.nav-link {
+  align-items: center;
+  flex: 1;
+  margin-inline: 2rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+}
+
+.nav-icon {
+  display: block;
+  top: 0;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+  color: #fff;
 }
 .nav-icon p {
-    font-weight: bold;
-
-    transform: translate(-175%, 100%);
+  font-weight: bold;
+  transform: translate(-165%, 100%);
 }
 
-.nav-icon .icon{
-    font-size: 2rem;
-    transform: translate(-50%, -15%);
+.nav-icon .icon {
+  font-size: 2rem;
+  transform: translate(-50%, -15%);
 }
