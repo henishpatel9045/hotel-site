@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hotel-site/static/css/main.a42a2ef8.css",
+    "main.js": "/hotel-site/static/js/main.7584a86a.js",
+    "static/js/787.60e8c377.chunk.js": "/hotel-site/static/js/787.60e8c377.chunk.js",
+    "static/media/bg.jpg": "/hotel-site/static/media/bg.d44ff8ea4868817a9184.jpg",
+    "static/media/dish-3.jpg": "/hotel-site/static/media/dish-3.ba8166320c1d7af4ba72.jpg",
+    "static/media/dish-1.jpg": "/hotel-site/static/media/dish-1.c9530554bc1935d75860.jpg",
+    "static/media/dish-5.jpg": "/hotel-site/static/media/dish-5.d0100c48ab8814c7e0ca.jpg",
+    "static/media/dish-7.jpg": "/hotel-site/static/media/dish-7.5f94a4aad4307e59783b.jpg",
+    "static/media/dish-4.jpg": "/hotel-site/static/media/dish-4.cc1ab950823a6f19e0e6.jpg",
+    "static/media/dish-2.jpg": "/hotel-site/static/media/dish-2.d780730167ff9ddce7a2.jpg",
+    "static/media/sweet-1.jpg": "/hotel-site/static/media/sweet-1.d5cd84ff798b1f5da92d.jpg",
+    "static/media/dish-6.jpg": "/hotel-site/static/media/dish-6.bbfc0839099f1d980cb7.jpg",
+    "static/media/sweet-2.jpg": "/hotel-site/static/media/sweet-2.710f66695cd0e5ec0d8c.jpg",
+    "static/media/sweet-3.jpg": "/hotel-site/static/media/sweet-3.64954e7f02b568bf2049.jpg",
+    "index.html": "/hotel-site/index.html",
+    "main.a42a2ef8.css.map": "/hotel-site/static/css/main.a42a2ef8.css.map",
+    "main.7584a86a.js.map": "/hotel-site/static/js/main.7584a86a.js.map",
+    "787.60e8c377.chunk.js.map": "/hotel-site/static/js/787.60e8c377.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a42a2ef8.css",
+    "static/js/main.7584a86a.js"
+  ]
+}
